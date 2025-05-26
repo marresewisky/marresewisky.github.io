@@ -1,5 +1,18 @@
-_site
-.sass-cache
-.jekyll-cache
+# Ignore the generated site files
+_site/
+
+# Ignore Sass cache files
+.sass-cache/
+
+# Ignore IDE settings (e.g., JetBrains IDEs like IntelliJ, PyCharm, etc.)
+.idea/
+
+# Ignore Jekyll cache files
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+# Ignore macOS specific metadata files
+.DS_Store
+
+# Ignore Gemfile.lock to avoid committing specific versions of dependencies
+Gemfile.lock
