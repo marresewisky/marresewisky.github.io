@@ -2,9 +2,13 @@
 # Only the main Sass file needs front matter (the dashes are enough) 
 --- 
 
-@use 'settings/variables';
+@use 'theme/variables';
 @use 'bootstrap/bootstrap';
-@use 'base/base';
+@use 'theme/marresewisky';
 
 // modules
 @use 'modules/header';
+@use 'modules/nav';
+@use 'modules/section';
+@use 'modules/scroll-to-top';
+@use 'modules/footer';
