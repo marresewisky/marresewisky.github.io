@@ -1,17 +1,8 @@
 <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-        <a href="{{'/' | relative_url }}" class="logo d-flex align-items-center me-auto">
-            <h1 class="sitename">{{ site.title }}</h1>
-            <span>.</span>
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="{{'/' | relative_url }}" class="logo d-flex align-items-center">
+            <img src="{{'/assets/img/logo.svg' | relative_url }}" alt="{{ site.title }}" width="300" height="50">
         </a>
-        <nav id="navmenu" class="navmenu">
-            <ul>
-                <li><a href="{{ '/#home' | relative_url }}" class="active">Home</a></li>
-                <li><a href="{{ '/#sobre-nos' | relative_url }}">Sobre nós</a></li>
-                <li><a href="{{ '/#areas-de-atuacao' | relative_url }}">Áreas de Atuação</a></li>
-                <li><a href="{{ '/#contato' | relative_url }}">Contato</a></li>
-            </ul>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+        {% include nav.html %}
     </div>
 </header>
