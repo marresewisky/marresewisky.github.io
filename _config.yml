@@ -2,14 +2,16 @@
 title: Marrese & Wisky
 email: contato@marresewisky.adv.br
 description: ""
+lang: pt-BR
 
 # Site URLs
 baseurl: ""
-url: ""
+url: https://marresewisky.adv.br/
 
 # Sass settings
 sass:
   style: compressed
+  quiet_deps: true
 
 # Jekyll plugins
 plugins:

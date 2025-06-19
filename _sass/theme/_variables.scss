@@ -1,0 +1,44 @@
+// Marrese & Wisky
+
+:root {
+  /* Font Families */
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
+
+  /* Global Colors */
+  --background-color: #ffffff;
+  --default-color: #444444;
+  --heading-color: #111111;
+  --accent-color: #e03a3c;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+
+  /* Header Colors */
+  --header-background-color: #080c31;
+
+  /* Nav Menu Colors */
+  --nav-color: #8a8484;
+  --nav-hover-color: #b99549;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #212529;
+  --nav-dropdown-hover-color: #e03a3c;
+
+  /* Smooth scroll */
+  scroll-behavior: smooth;
+}
+
+/* Color Presets */
+.light-background {
+  --background-color: #f9f9f9;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #1b1b1b;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #353535;
+  --contrast-color: #ffffff;
+}
