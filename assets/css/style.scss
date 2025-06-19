@@ -2,12 +2,12 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@use 'theme/variables';
-@use 'theme/marresewisky';
+@import 'theme/variables';
+@import 'theme/marresewisky';
 
 // modules
-@use 'modules/header';
-@use 'modules/nav';
-@use 'modules/section';
-@use 'modules/scroll-to-top';
-@use 'modules/footer';
+@import 'modules/header';
+@import 'modules/nav';
+@import 'modules/section';
+@import 'modules/scroll-to-top';
+@import 'modules/footer';
