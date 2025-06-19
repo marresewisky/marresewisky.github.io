@@ -6,7 +6,7 @@ lang: pt-BR
 
 # Site URLs
 baseurl: ""
-url: ""
+url: https://marresewisky.adv.br/
 
 # Sass settings
 sass:
