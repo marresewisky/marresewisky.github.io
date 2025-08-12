@@ -1,4 +1,4 @@
-// Marrese & Wisky
+// Marrese, Wisky & Maia
 
 :root {
   /* Font Families */
@@ -10,12 +10,13 @@
   --background-color: #ffffff;
   --default-color: #444444;
   --heading-color: #111111;
-  --accent-color: #e03a3c;
+  --accent-color: #b99549;
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
 
   /* Header Colors */
   --header-background-color: #080c31;
+  --header-color: #ffffff;
 
   /* Nav Menu Colors */
   --nav-color: #ffffff;
@@ -25,9 +26,9 @@
   --nav-dropdown-color: #212529;
   --nav-dropdown-hover-color: #e03a3c;
 
-    /* Footer Colors */
-    --footer-background-color: #080c31;
-    --footer-text-color: #ffffff;
+  /* Footer Colors */
+  --footer-background-color: #080c31;
+  --footer-text-color: #ffffff;
 
   /* Smooth scroll */
   scroll-behavior: smooth;
