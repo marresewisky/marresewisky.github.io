@@ -1,11 +1,11 @@
-<footer id="footer" class="footer">
+<footer class="footer" id="footer">
     <div class="container">
         <div class="copyright text-center ">
             <p>© <span>Copyright</span> <strong class="px-1 sitename">{{ site.title }}</strong> <span>All Rights Reserved</span></p>
         </div>
         <div class="social-links d-flex justify-content-center">
             {% for social in site.social-network-links %}
-            <a href="{{ social.url }}" title="{{ social.name }}" target="_blank"><i class="{{ social.icon }}"></i></a>
+            <a href="{{ social.url }}" target="_blank" title="{{ social.name }}"><i class="{{ social.icon }}"></i></a>
             {% endfor %}
         </div>
     </div>
