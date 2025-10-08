@@ -22,7 +22,9 @@ social-network-links:
 
 # Sass settings
 sass:
+  implementation: sass-embedded
   style: compressed
+  quiet_deps: true  # Silencia avisos de deprecação de dependências
 
 # Jekyll plugins
 plugins:
