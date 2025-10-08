@@ -1,5 +1,5 @@
 # Basic site settings
-title: Marrese & Wisky
+title: Marrese, Wisky & Maia
 email: contato@marresewisky.adv.br
 description: ""
 lang: pt-BR
@@ -7,6 +7,18 @@ lang: pt-BR
 # Site URLs
 baseurl: ""
 url: https://marresewisky.adv.br/
+
+# --- footer social media links --- #
+social-network-links:
+  - name: "Me mande um e-mail"
+    url: "mailto:email@email.com"
+    icon: "bi bi-envelope"
+  - name: "Instagram"
+    url: "https://github.com/danielwisky"
+    icon: "bi bi-instagram"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/danielwisky"
+    icon: "bi bi-linkedin"
 
 # Sass settings
 sass:
