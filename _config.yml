@@ -23,7 +23,6 @@ social-network-links:
 # Sass settings
 sass:
   style: compressed
-  quiet_deps: true
 
 # Jekyll plugins
 plugins:
